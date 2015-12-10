@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+    <property_list>    
+        <property name="GAME_TITLE_TEXT" value="HangMan - The Five Letter Word Game"></property>
+        
+        <!-- THESE ARE THE GUI IMAGES -->
+        <property name="GAME_IMG_NAME"          value="JP_Game.png"></property>
+        <property name="STATS_IMG_NAME"         value="JP_Stats.png"></property>
+        <property name="HELP_IMG_NAME"          value="JP_Help.png"></property>
+        <property name="EXIT_IMG_NAME"          value="JP_Exit.png"></property>
+        <property name="NEW_GAME_IMG_NAME"      value="JP_NewGame.png"></property>
+        <property name="HOME_IMG_NAME"          value="JP_Home.png"></property>
+         <property name="HANGMAN0_IMG_NAME"          value="Hangman0.png"></property>
+        <property name="HANGMAN1_IMG_NAME"          value="Hangman1.png"></property>
+        <property name="HANGMAN2_IMG_NAME"          value="Hangman2.png"></property>
+        <property name="HANGMAN3_IMG_NAME"          value="Hangman3.png"></property>
+        <property name="HANGMAN4_IMG_NAME"          value="Hangman4.png"></property>
+        <property name="HANGMAN5_IMG_NAME"          value="Hangman5.png"></property>
+        <property name="HANGMAN6_IMG_NAME"          value="Hangman6.png"></property>
+        <!-- DATA FILES TO LOAD -->
+        <property name="WORD_LIST_FILE_NAME"    value="JP_FiveLetterWordsList.txt"></property>
+        <property name="GAME_FILE_NAME"         value="JP_GameDisplay.html"></property>
+        <property name="STATS_FILE_NAME"        value="JP_StatsDisplay.html"></property>
+        <property name="HELP_FILE_NAME"         value="JP_Help.html"></property>
+        
+        <!-- IN-GAME TEXT -->
+        <property name="GUESS_LABEL"            value="ゲス："></property>
+        <property name="GAME_SUBHEADER_TEXT"    value="推測（秘密単語の文字の数）"></property>
+        <property name="WIN_DISPLAY_TEXT"       value="あなたは勝つ！"></property>
+        <property name="LOSE_DISPLAY_TEXT"       value="あなたが失う！"></property>
+        <property name="GAME_RESULTS_TEXT"      value="ゲーム結果"></property>
+        <property name="EXIT_REQUEST_TEXT"      value="あなたが終了してもよろしいですか"></property>
+        <property name="YES_TEXT"               value="はい"></property>
+        <property name="NO_TEXT"                value="いいえ"></property>
+        
+        <!-- TOOLTIPS -->
+        <property name="GAME_TOOLTIP"           value="画面の試合に行く"></property>
+        <property name="STATS_TOOLTIP"          value="統計要約画面に移動します"></property>
+        <property name="HELP_TOOLTIP"           value="画面のヘルプに進みます"></property>
+        <property name="EXIT_TOOLTIP"           value="ゲームアプリケーションを終了します"></property>
+        <property name="NEW_GAME_TOOLTIP"       value="新しいゲームを開始します"></property>
+        <property name="HOME_TOOLTIP"           value="ハングマンヘルプページへホームゴー"></property>
+        
+        <!-- ERROR FEEDBACK TEXT -->
+        <property name="ERROR_DIALOG_TITLE_TEXT"            value="エラーが発生しました"></property>
+        <property name="DUPLICATE_WORD_ERROR_TEXT"          value="その言葉は、すでに推測されました"></property>
+        <property name="IMAGE_LOADING_ERROR_TEXT"           value="画像を正しく読み込めませんでした"></property>
+        <property name="INVALID_URL_ERROR_TEXT"             value="無効なURLでページをロードしようとすると、"></property>
+        <property name="INVALID_DOC_ERROR_TEXT"             value="エラーは、HTMLドキュメントを編集することに遭遇"></property>
+        <property name="INVALID_XML_FILE_ERROR_TEXT"        value="無効なXMLプロパティファイル"></property>
+        <property name="INVALID_GUESS_LROGTH_ERROR_TEXT"    value="5文字を持っている必要がありますね"></property>
+        <property name="WORD_NOT_IN_DICTIONARY_ERROR_TEXT"  value="辞書には見られない推測"></property>
+        <property name="INVALID_DICTIONARY_ERROR_TEXT"      value="エラーは、辞書の読み込みが発生しました"></property>
+    </property_list>    
+    <property_options_list>
+        <property_options name="LETTER_OPTIONS">
+            <option>あ</option>
+            <option>い</option>
+            <option>う</option>
+            <option>え</option>
+            <option>お</option>
+            <option>か</option>
+            <option>き</option>
+            <option>く</option>
+            <option>け</option>
+            <option>こ</option>
+            <option>さ</option>
+            <option>し</option>
+            <option>す</option>
+            <option>せ</option>
+            <option>そ</option>
+            <option>た</option>
+            <option>ち</option>
+            <option>つ</option>
+            <option>て</option>
+            <option>と</option>
+            <option>な</option>
+            <option>に</option>
+            <option>ぬ</option>
+            <option>ね</option>
+            <option>の</option>
+            <option>は</option>
+            <option>ひ</option>
+            <option>ふ</option>
+            <option>へ</option>
+            <option>ほ</option>
+            <option>ま</option>
+            <option>み</option>
+            <option>む</option>
+            <option>め</option>
+            <option>も</option>
+            <option>や</option>
+            <option>ゆ</option>
+            <option>よ</option>
+            <option>ら</option>
+            <option>り</option>
+            <option>る</option>
+            <option>れ</option>
+            <option>ろ</option>
+            <option>わ</option>
+            <option>を</option>
+            <option>ん</option>
+        </property_options>
+    </property_options_list>
+</properties>
